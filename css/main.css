@@ -2,3 +2,77 @@
 {
 	display: none;
 }
+
+body
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header
+{
+	width: 980px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#mixSections
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0 auto;
+	background-color: pink;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#mixSections h2
+{
+	margin-bottom: 20px;
+}
+
+#tracksAndMix
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: green;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#controls
+{
+	height: 50px;
+	width: 400px;
+	margin: 10px;
+	background-color: blue;
+}
+
+.mixArea
+{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin: 10px 10px 10px 10px;
+	background-color: grey;
+}
+
+#musicTracks 
+{
+	background-color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+/*
+#musicTracks2
+{
+	background-color: white;
+	width: 200px;
+}*/
