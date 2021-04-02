@@ -16,6 +16,8 @@ Want to change a track? Just drag it away. Or hit the reset button to start all 
 * Designer - Isabella Antonucci
 * Developer - Kenneth Rose
 
+## Instrument Samples obtained from [Freesound](https://freesound.org/)
+
 
 ## License
 Copyright 2021 Isabella Antonucci and Kenneth Rose
