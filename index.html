@@ -22,34 +22,38 @@
 			<h2>Music Mixer</h2>
 			<h3>Mix your own music, just drap around different sounds</h3>
 		</header>
-		<section id="mixSections">
-			<h2>Music Mixing Area</h2>
-			<div id="tracksAndMix">
-				<div id="musicTracks">
-					<h3>Music Tracks Area 1</h3>				
-				</div>
-				
-				<div id="mixingArea">
-					<h3> Mix your Music track</h3>
-					<div id="controls"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-				</div>
-
-				<div id="musicTracks">
-					<h3 class="">Music Tracks Area 2</h3>
-				</div>
-
+		<audio src="sounds/accordeon.wav"></audio>
+		<div id="container">
+			<div id="gridSong">
+				<div class="mixArea"></div>
+				<div class="mixArea"></div>
+				<div class="mixArea"></div>
+				<div class="mixArea"></div>
+				<div class="mixArea"></div>
 			</div>
 
-			
+			<div class="audio-controls">
+				<button>PLAY</button>
+				<button>STOP</button>
+				<button>RESET</button>
+				<input id="volume-control" type="range" min="0" max="100" step="1">
+			</div>
 
-		</section>
-
+			<div id="musicTracks">
+				<div class="track"><img data-trackref="accordeon" src="images/place-holder.svg" alt="album art" class="track-ref"></div>
+				<div class="track"></div>
+				<div class="track"></div>
+				<div class="track"></div>
+				<div class="track"></div>
+				<div class="track"></div>
+				<div class="track wrap"></div>
+				<div class="track"></div>
+				<div class="track"></div>
+				<div class="track"></div>
+				<div class="track"></div>
+				<div class="track"></div>
+			</div>
+		</div>
 		<script src="js/main.js"></script>
 		<!-- imports java script file -->
 	</body>
