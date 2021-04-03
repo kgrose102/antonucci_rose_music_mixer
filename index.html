@@ -22,34 +22,40 @@
 			<h2>Music Mixer</h2>
 			<h3>Mix your own music, just drap around different sounds</h3>
 		</header>
-		<section id="mixSections">
-			<h2>Music Mixing Area</h2>
-			<div id="tracksAndMix">
-				<div id="musicTracks">
-					<h3>Music Tracks Area 1</h3>				
-				</div>
-				
-				<div id="mixingArea">
-					<h3> Mix your Music track</h3>
-					<div id="controls"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-					<div class="mixArea"></div>
-				</div>
-
-				<div id="musicTracks">
-					<h3 class="">Music Tracks Area 2</h3>
-				</div>
-
+		<!-- <audio src="sounds/track10.wav" id="t10"></audio> -->
+		<audio src="sounds/track11.wav"></audio>
+		<div id="container">
+			<div id="gridSong" class="dropCon">
+				<div class="mixArea" id="a0"></div>
+				<div class="mixArea" id="a1"></div>
+				<div class="mixArea" id="a2"></div>
+				<div class="mixArea" id="a3"></div>
+				<div class="mixArea" id="a4"></div>
 			</div>
 
-			
+			<div class="audio-controls">
+				<button>PLAY</button>
+				<button>STOP</button>
+				<button>RESET</button>
+				<input id="volume-control" type="range" min="0" max="100" step="1">
+			</div>
 
-		</section>
-
+			<div id="musicTracks" class="dragTracks">
+				
+				<div class="track track0"><img data-trackref="0" src="images/place-holder.svg" alt="album art" class="track-ref" id="t0"></div>
+				<div class="track track1"><img data-trackref="1" src="images/place-holder.svg" alt="album art" class="track-ref" id="t1"></div>
+				<div class="track track2"><img data-trackref="2" src="images/place-holder.svg" alt="album art" class="track-ref" id="t2"></div>
+				<div class="track track3"><img data-trackref="3" src="images/place-holder.svg" alt="album art" class="track-ref" id="t3"></div>
+				<div class="track track4"><img data-trackref="4" src="images/place-holder.svg" alt="album art" class="track-ref" id="t4"></div>
+				<div class="track track5"><img data-trackref="5" src="images/place-holder.svg" alt="album art" class="track-ref" id="t5"></div>
+				<div class="track wrap track6"><img data-trackref="6" src="images/place-holder.svg" alt="album art" class="track-ref" id="t6"></div>
+				<div class="track track7"><img data-trackref="7" src="images/place-holder.svg" alt="album art" class="track-ref" id="t7"></div>
+				<div class="track track8"><img data-trackref="8" src="images/place-holder.svg" alt="album art" class="track-ref" id="t8"></div>
+				<div class="track track9"><img data-trackref="9" src="images/place-holder.svg" alt="album art" class="track-ref" id="t9"></div>
+				<div class="track track10"><img data-trackref="10" src="images/place-holder.svg" alt="album art" class="track-ref" id="t10"></div>
+				<div class="track track11"><img data-trackref="11" src="images/place-holder.svg" alt="album art" class="track-ref" id="t11"></div>
+			</div>
+		</div>
 		<script src="js/main.js"></script>
 		<!-- imports java script file -->
 	</body>

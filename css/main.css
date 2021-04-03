@@ -3,10 +3,17 @@
 	display: none;
 }
 
+audio
+{
+	display: none;
+}
+
 body
 {
 	width: 1000px;
 	margin: 0 auto;
+	background-color: #bebebe;
+	font-family: 'arial', sans-serif;
 }
 
 header
@@ -18,61 +25,75 @@ header
 	padding-bottom: 20px;
 }
 
-#mixSections
+header h2
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+header h3
+{
+	font-size: 25px;
+	text-align: center;
+}
+
+#container
 {
 	display: flex;
 	flex-direction: column;
-	margin-top: 0 auto;
-	background-color: pink;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
+	margin: 0 auto;
 }
 
-#mixSections h2
+#gridSong
 {
-	margin-bottom: 20px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0,1fr));
+	grid-gap: 10px;
+	background-color: #ffffff99;
+	padding: 20px;
 }
 
-#tracksAndMix
+.audio-controls
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	background-color: green;
-	padding-top: 20px;
-	padding-bottom: 20px;
-
-}
-
-#controls
-{
+	display: block;
+	
 	height: 50px;
 	width: 400px;
-	margin: 10px;
+	margin: 10px auto;
 	background-color: blue;
 }
 
 .mixArea
 {
 	display: inline-block;
-	height: 50px;
-	width: 50px;
-	margin: 10px 10px 10px 10px;
+	height: 110px;
+	width: 110px;
+	margin: 10px;
 	background-color: grey;
+	padding: 5px;
 }
 
 #musicTracks 
 {
-	background-color: white;
-	width: 200px;
-	padding-top: 10px;
-	padding-left: 10px;
+	margin: 0 auto;
+	background-color: #ffffff99;
+	width: 700px;
+	padding: 20px 0 20px 20px;
+	display: grid;
+	grid-template-columns: repeat(6, minmax(0,1fr));
+	grid-template-rows: 2;
+	grid-gap: 10px;
 }
-/*
-#musicTracks2
+
+.track
 {
-	background-color: white;
-	width: 200px;
-}*/
+	height: 90px;
+	width: 90px;
+	background-color: grey;
+}
+
+.wrap
+{
+	grid-column: 1/1;
+}
