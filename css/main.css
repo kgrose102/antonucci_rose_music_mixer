@@ -10,38 +10,45 @@ audio
 
 body
 {
-	width: 1000px;
+	width: 1280px;
 	margin: 0 auto;
 	background-color: #bebebe;
 	font-family: 'arial', sans-serif;
+	background-image: url(../images/music-mixer.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 989px;
+	
 }
 
 header
 {
-	width: 980px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	margin: 0 auto;
+	background-color: #262626;
+	height: 100px;
+	width: 1000px;
+	padding-top: 10px;
 }
 
 header h2
 {
 	font-size: 40px;
 	text-align: center;
+	color: white;
 }
 
 header h3
 {
 	font-size: 25px;
 	text-align: center;
+	color: white;
 }
+
 
 #container
 {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
 }
 
 #gridSong
@@ -50,8 +57,10 @@ header h3
 	display: grid;
 	grid-template-columns: repeat(5, minmax(0,1fr));
 	grid-gap: 10px;
-	background-color: #ffffff99;
-	padding: 20px;
+	background-color: #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 100px;
 }
 
 .audio-controls
@@ -62,6 +71,8 @@ header h3
 	width: 400px;
 	margin: 10px auto;
 	background-color: blue;
+	margin-top: 125px;
+	margin-bottom: 170px;
 }
 
 .mixArea
@@ -76,9 +87,10 @@ header h3
 
 #musicTracks 
 {
+	grid-row: 4;
 	margin: 0 auto;
-	background-color: #ffffff99;
-	width: 700px;
+	background-color: #ffffff;
+	width: 1100px;
 	padding: 20px 0 20px 20px;
 	display: grid;
 	grid-template-columns: repeat(6, minmax(0,1fr));
@@ -86,11 +98,12 @@ header h3
 	grid-gap: 10px;
 }
 
+
+
 .track
 {
-	height: 90px;
-	width: 90px;
-	background-color: grey;
+	height: 100px;
+	width: 100px;
 }
 
 .wrap
