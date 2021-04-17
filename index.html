@@ -25,37 +25,41 @@
 
 		<div id="mixerCon">	
 			<!-- <audio src="sounds/track10.wav" id="t10"></audio> -->
-			<audio src="sounds/track11.wav"></audio>
+			<audio id="audio0" src="sounds/t0.wav"></audio>
+			<audio id="audio1" src="sounds/t0.wav"></audio>
+			<audio id="audio2" src="sounds/t0.wav"></audio>
+			<audio id="audio3" src="sounds/t0.wav"></audio>
+			<audio id="audio4" src="sounds/t0.wav"></audio>
 			<div id="container">
 				<div id="gridSong" class="dropCon">
-					<div class="mixArea" id="a0"></div>
-					<div class="mixArea" id="a1"></div>
-					<div class="mixArea" id="a2"></div>
+					<div data-audioref='audio1' class="mixArea" id="a0"></div>
+					<div data-audioref='audio2' class="mixArea" id="a1"></div>
+					<div data-audioref='audio3' class="mixArea" id="a2"></div>
 					<div class="mixArea" id="a3"></div>
 					<div class="mixArea" id="a4"></div>
 				</div>
 
 				<div class="audio-controls">
-					<button>PLAY</button>
-					<button>STOP</button>
-					<button>RESET</button>
+					<button id="play">PLAY</button>
+					<button id="stop">STOP</button>
+					<button id="reset">RESET</button>
 					<input id="volume-control" type="range" min="0" max="100" step="1">
 				</div>
 
 				<div id="musicTracks" class="dragTracks">
 					
-					<div class="track track0"><img data-trackref="0" src="images/accordian.svg" alt="album art" class="track-ref" id="t0"></div>
-					<div class="track track1"><img data-trackref="1" src="images/guitar2.svg" alt="album art" class="track-ref" id="t1"></div>
-					<div class="track track2"><img data-trackref="2" src="images/guitar1.svg" alt="album art" class="track-ref" id="t2"></div>
-					<div class="track track3"><img data-trackref="3" src="images/guitar4.svg" alt="album art" class="track-ref" id="t3"></div>
-					<div class="track track4"><img data-trackref="4" src="images/synth2.svg" alt="album art" class="track-ref" id="t4"></div>
-					<div class="track track5"><img data-trackref="5" src="images/guitar3.svg" alt="album art" class="track-ref" id="t5"></div>
-					<div class="track wrap track6"><img data-trackref="6" src="images/drum1.svg" alt="album art" class="track-ref" id="t6"></div>
-					<div class="track track7"><img data-trackref="7" src="images/drum2.svg" alt="album art" class="track-ref" id="t7"></div>
-					<div class="track track8"><img data-trackref="8" src="images/bass_drum.svg" alt="album art" class="track-ref" id="t8"></div>
-					<div class="track track9"><img data-trackref="9" src="images/piano.svg" alt="album art" class="track-ref" id="t9"></div>
-					<div class="track track10"><img data-trackref="10" src="images/synth1.svg" alt="album art" class="track-ref" id="t10"></div>
-					<div class="track track11"><img data-trackref="11" src="images/synth3.svg" alt="album art" class="track-ref" id="t11"></div>
+					<div class="track track0"><img data-trackref="t0" src="images/accordian.svg" alt="album art" class="track-ref" id="t0"></div>
+					<div class="track track1"><img data-trackref="t1" src="images/guitar2.svg" alt="album art" class="track-ref" id="t1"></div>
+					<div class="track track2"><img data-trackref="t2" src="images/guitar1.svg" alt="album art" class="track-ref" id="t2"></div>
+					<div class="track track3"><img data-trackref="t3" src="images/guitar4.svg" alt="album art" class="track-ref" id="t3"></div>
+					<div class="track track4"><img data-trackref="t4" src="images/synth2.svg" alt="album art" class="track-ref" id="t4"></div>
+					<div class="track track5"><img data-trackref="t5" src="images/guitar3.svg" alt="album art" class="track-ref" id="t5"></div>
+					<div class="track wrap track6"><img data-trackref="t6" src="images/drum1.svg" alt="album art" class="track-ref" id="t6"></div>
+					<div class="track track7"><img data-trackref="t7" src="images/drum2.svg" alt="album art" class="track-ref" id="t7"></div>
+					<div class="track track8"><img data-trackref="t8" src="images/bass_drum.svg" alt="album art" class="track-ref" id="t8"></div>
+					<div class="track track9"><img data-trackref="t9" src="images/piano.svg" alt="album art" class="track-ref" id="t9"></div>
+					<div class="track track10"><img data-trackref="t10" src="images/synth1.svg" alt="album art" class="track-ref" id="t10"></div>
+					<div class="track track11"><img data-trackref="t11" src="images/synth3.svg" alt="album art" class="track-ref" id="t11"></div>
 				</div>
 			</div>
 		</div>
