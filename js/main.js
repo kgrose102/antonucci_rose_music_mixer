@@ -49,11 +49,12 @@ console.log("javascript is linked up");
 		console.log('Audio Level', volume.value);
 	}
 
-	
+
 
 	function resetTracks(){
 		// console.log('trackReset');
-		dropZones.forEach(function(entry){console.log(entry)});
+		// dropZones.forEach(function(entry){console.log(entry)});
+		location.reload();
 	}
 
 	function dragStart(event) {
